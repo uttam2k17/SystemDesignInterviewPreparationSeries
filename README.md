@@ -65,6 +65,7 @@ Whether you're preparing for your first tech interview or aiming for senior engi
 | 48 | The Idempotency Key That Lied: Two-Phase PENDING/COMPLETED Pattern | [Read](./Day48_Idempotency_The_Key_That_Lied.md) |
 | 49 | The Kafka OOM Crash That Charged 1000 Customers Twice | [Read](./Day49_Kafka_OOM_Crash_Duplicate_Charge_Idempotency.md) |
 | 50 | One Request. A Thousand Logs. Zero Answers. — Distributed Tracing | [Read](./Day50_Microservice_Debugging_Distributed_Tracing.md) |
+| 51 | The Day Netflix Broke Production on Purpose — Chaos Engineering | [Read](./Day51_Chaos_Engineering_Netflix_Chaos_Monkey.md) |
 
 ---
 
