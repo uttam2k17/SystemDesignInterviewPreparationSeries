@@ -17,6 +17,8 @@ It was introduced by **Thaler & Ravishankar (1996)** — actually **predating co
 
 > **One-line intuition:** *For every key, compute `hash(key, node)` for each node and pick the node with the **highest** weight. That’s it.*
 
+> **📐 Excalidraw:** Open [day54-rendezvous-hashing-add-delete.excalidraw](./day54-rendezvous-hashing-add-delete.excalidraw) at [excalidraw.com](https://excalidraw.com) — dark background (`#1e1e1e`), 3 panels showing **BEFORE → DELETE node A → ADD node D** with per-key weights and winners.
+
 > **Companion read:** See [Day 28 — Consistent Hashing](./Day28_Consistent_Hashing_Resharding.md) for the classic alternative. Rendezvous is the **simpler, ring-free sibling**.
 
 ---
