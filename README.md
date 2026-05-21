@@ -82,9 +82,33 @@ Whether you're preparing for your first tech interview or aiming for senior engi
 
 ---
 
-## 📬 Connect
+## 📬 Connect with Me
 
-Follow along and share your progress!
+If this series helps you ace an interview, ship a better design, or just survive a 3 AM on-call — I'd love to hear about it. Follow along, share your progress, and tag me when you land that offer.
+
+[![YouTube](https://img.shields.io/badge/YouTube-CodeWithSunchitDudeja-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@CodeWithSunchitDudeja)
+[![Instagram](https://img.shields.io/badge/Instagram-%40sunchitdudeja-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sunchitdudeja/)
+[![GitHub](https://img.shields.io/badge/GitHub-Sunchit-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sunchit)
+
+| Platform | Handle | Why follow |
+|----------|--------|------------|
+| 📺 **YouTube** | [@CodeWithSunchitDudeja](https://www.youtube.com/@CodeWithSunchitDudeja) | Video walkthroughs of every post in this series |
+| 📸 **Instagram** | [@sunchitdudeja](https://www.instagram.com/sunchitdudeja/) | Daily system design snippets and behind-the-scenes |
+| 🐙 **GitHub** | [@Sunchit](https://github.com/Sunchit) | All the source code, diagrams, and companion series |
+
+---
+
+## ✍️ About the Author
+
+**Sunchit Dudeja** — Engineering Leader · System Design Educator
+
+Building this series to give every developer the foundation that took most architects years of painful incidents to develop.
+
+Also writing the companion series **[Learn to Think Like an Architect](https://github.com/Sunchit/LearnToThinkLikeAnArchitect)** — mental models and real-world architectural war stories.
+
+---
 
 *Happy Learning!* 🎉
+
+> *"A developer makes the code work. An architect makes the system last."*
 
