@@ -1,5 +1,5 @@
 # The Rate Limiter That Let 2× Traffic Through: Why Fixed Window Counters Lie at the Boundary
-### Day 56 of 50 - System Design Interview Preparation Series
+### Day 57 of 50 - System Design Interview Preparation Series
 
 **By Sunchit Dudeja**
 
