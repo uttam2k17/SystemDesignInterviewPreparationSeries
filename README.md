@@ -70,6 +70,7 @@ Whether you're preparing for your first tech interview or aiming for senior engi
 | 53 | The Uber Retry Storm That Almost Broke Surge Pricing | [Read](./Day53_Uber_Retry_Storm_Exponential_Backoff_Circuit_Breaker.md) |
 | 54 | Rendezvous Hashing: The Elegant Cousin of Consistent Hashing (HRW) | [Read](./Day54_Rendezvous_Hashing_Highest_Random_Weight.md) |
 | 55 | Real-Time Notifications with Mark-as-Read: Broadcast the Result, Not the Action | [Read](./Day55_RealTime_Notifications_Mark_As_Read.md) |
+| 56 | The Rate Limiter That Let 2× Traffic Through: Why Fixed Window Counters Lie at the Boundary | [Read](./Day56_Rate_Limiting_Algorithms_Fixed_Window_Boundary_Bug.md) |
 
 ---
 
