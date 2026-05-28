@@ -73,6 +73,7 @@ Whether you're preparing for your first tech interview or aiming for senior engi
 | 56 | The 42 KB Upload That Detonates Into 4.5 Petabytes: Decompression Bombs and the Architect's Defense Playbook | [Read](./Day56_Zip_Bomb_Decompression_Amplification_Defense.md) |
 | 57 | The Rate Limiter That Let 2× Traffic Through: Why Fixed Window Counters Lie at the Boundary | [Read](./Day57_Rate_Limiting_Algorithms_Fixed_Window_Boundary_Bug.md) |
 | 58 | Beyond 42.zip: The Algorithmic Complexity Attack Family — Billion Laughs, ReDoS, GraphQL Bombs, and the One Defense Pattern That Beats All of Them | [Read](./Day58_Algorithmic_Complexity_Attacks_Family_Universal_Defense.md) |
+| 59 | Rolling, Blue-Green, Canary, or Feature Flags? The Deployment Strategy Decision Tree Every Architect Uses | [Read](./Day59_Deployment_Strategies_Decision_Tree.md) |
 
 ---
 
