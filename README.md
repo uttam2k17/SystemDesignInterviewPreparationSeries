@@ -74,6 +74,7 @@ Whether you're preparing for your first tech interview or aiming for senior engi
 | 57 | The Rate Limiter That Let 2× Traffic Through: Why Fixed Window Counters Lie at the Boundary | [Read](./Day57_Rate_Limiting_Algorithms_Fixed_Window_Boundary_Bug.md) |
 | 58 | Beyond 42.zip: The Algorithmic Complexity Attack Family — Billion Laughs, ReDoS, GraphQL Bombs, and the One Defense Pattern That Beats All of Them | [Read](./Day58_Algorithmic_Complexity_Attacks_Family_Universal_Defense.md) |
 | 59 | Rolling, Blue-Green, Canary, or Feature Flags? The Deployment Strategy Decision Tree Every Architect Uses | [Read](./Day59_Deployment_Strategies_Decision_Tree.md) |
+| 60 | 10 TB of Logs a Day, 100k Events per Second: Centralized Logging Server HLD | [Read](./Day60_Centralized_Logging_Server_HLD.md) |
 
 ---
 
