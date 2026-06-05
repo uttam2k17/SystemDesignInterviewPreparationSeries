@@ -76,6 +76,7 @@ Whether you're preparing for your first tech interview or aiming for senior engi
 | 59 | Rolling, Blue-Green, Canary, or Feature Flags? The Deployment Strategy Decision Tree Every Architect Uses | [Read](./Day59_Deployment_Strategies_Decision_Tree.md) |
 | 60 | 10 TB of Logs a Day, 100k Events per Second: Centralized Logging Server HLD | [Read](./Day60_Centralized_Logging_Server_HLD.md) |
 | 61 | Hot Standby vs Cold Standby — and Why "Cold Start" Is the Same Trade-off in Failover, Serverless, Recommendations, and Databases | [Read](./Day61_Hot_vs_Cold_Standby_Failover_Cold_Start.md) |
+| 62 | Design a Distributed Job Scheduler — RabbitMQ Spine, Worker Pool, and the At-Least-Once Discipline | [Read](./Day62_Distributed_Job_Scheduler_RabbitMQ.md) |
 
 ---
 
