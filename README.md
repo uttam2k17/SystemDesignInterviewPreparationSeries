@@ -78,6 +78,8 @@ Whether you're preparing for your first tech interview or aiming for senior engi
 | 61 | Hot Standby vs Cold Standby — and Why "Cold Start" Is the Same Trade-off in Failover, Serverless, Recommendations, and Databases | [Read](./Day61_Hot_vs_Cold_Standby_Failover_Cold_Start.md) |
 | 62 | Design a Distributed Job Scheduler — RabbitMQ Spine, Worker Pool, and the At-Least-Once Discipline | [Read](./Day62_Distributed_Job_Scheduler_RabbitMQ.md) |
 | 63 | UPI Lite's Offline Payment Core — Two Phones Tap, Money Moves, No Internet (TEE, Token Chains & Double-Spend) | [Read](./Day63_UPI_Lite_Offline_Payments_TEE_Double_Spend.md) |
+| 64 | Database Sharding: Range, Hash, Directory & the Resharding Nightmare — Choosing the Shard Key That Makes or Breaks You | [Read](./Day64_Database_Sharding_Strategies.md) |
+| 65 | LSM Trees vs B-Trees: Why Cassandra Eats Writes for Breakfast and Postgres Doesn't | [Read](./Day65_LSM_Trees_vs_B_Trees.md) |
 
 ---
 
