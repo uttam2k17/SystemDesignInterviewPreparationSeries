@@ -11,6 +11,25 @@ Whether you're preparing for your first tech interview or aiming for senior engi
 
 ---
 
+## 📂 Browse by Topic (Chapter Index)
+
+Articles are published as `DayN_*.md` at the repo root (so links never break). Topic folders group them for easier navigation:
+
+| Chapter | What's inside |
+|---------|---------------|
+| [fundamentals/](./fundamentals/README.md) | Client-server, capacity, failure, load balancing, APIs, proxies |
+| [message-queues/](./message-queues/README.md) | [RabbitMQ deep dive](./message-queues/RabbitMQ_Deep_Dive.md), Kafka, outbox, job scheduler |
+| [databases/](./databases/README.md) | [Search engines](./databases/Search_Engines_Elasticsearch_Deep_Dive.md), replication, sharding, LSM vs B-Tree |
+| [caching/](./caching/README.md) | Redis, Bloom filters, cache hit rate |
+| [distributed-systems/](./distributed-systems/README.md) | Sagas, idempotency, tracing, hashing, chaos |
+| [security-auth/](./security-auth/README.md) | OAuth/OIDC tokens, rate limiting, attacks |
+| [deployment/](./deployment/README.md) | Blue-green, K8s, Docker, logging HLD |
+| [interview-problems/](./interview-problems/README.md) | Classic "Design X" — published pieces + [roadmap](./ROADMAP.md) |
+
+> **Looking for WhatsApp / Netflix / Uber full walkthroughs?** [Day 1](./Day1_Why_System_Design_Matters.md) outlined them as Phase 2; see [ROADMAP.md](./ROADMAP.md) and [interview-problems/](./interview-problems/README.md) for honest status and what's coming next.
+
+---
+
 ## 📚 Series Content
 
 | Day | Title | Link |
@@ -86,10 +105,11 @@ Whether you're preparing for your first tech interview or aiming for senior engi
 
 ## 🎯 What You'll Learn
 
-- **Foundational Concepts:** Client-Server Architecture, APIs, Databases, Caching
-- **Distributed Systems:** CAP Theorem, Consistency, Availability, Partitioning
-- **Scalability Patterns:** Load Balancing, Sharding, Replication
-- **Real Interview Problems:** Design WhatsApp, Netflix, Uber, Amazon, and more
+- **Foundational Concepts:** Client-Server Architecture, APIs, Databases, Caching — [fundamentals/](./fundamentals/README.md)
+- **Distributed Systems:** CAP Theorem, Consistency, Availability, Partitioning — [distributed-systems/](./distributed-systems/README.md)
+- **Scalability Patterns:** Load Balancing, Sharding, Replication — [databases/](./databases/README.md) · [fundamentals/load-balancing.md](./fundamentals/load-balancing.md)
+- **Message Queues & Streaming:** RabbitMQ, Kafka, outbox — [message-queues/](./message-queues/README.md)
+- **Classic Interview Problems:** URL shortener, WhatsApp, Netflix, Uber — **partially covered** via pattern days; full walkthroughs tracked in [ROADMAP.md](./ROADMAP.md)
 
 ---
 
