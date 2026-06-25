@@ -83,6 +83,7 @@ Whether you're preparing for your first tech interview or aiming for senior engi
 | 66 | Access vs Refresh vs ID Token: The Three Tokens Every Architect Confuses (OAuth 2.0 & OIDC) | [Read](./Day66_OAuth_OIDC_Access_Refresh_ID_Tokens.md) |
 | 67 | Build S3 Multipart Upload End-to-End — Java Spring Boot + React Tutorial with Architect's Production Notes | [Read](./Day67_S3_Multipart_Upload_Java_React_Tutorial.md) |
 | 68 | Sharding vs Partitioning: The Architect's Definitive Guide — Partition for Maintenance, Shard for Scale | [Read](./Day68_Sharding_vs_Partitioning_Architects_Definitive_Guide.md) |
+| 69 | Single-Table Design in DynamoDB: Anti‑Pattern or Best Practice? — An Architect's Guide to NoSQL Schema Design | [Read](./Day69_DynamoDB_Single_Table_Design_Anti_Pattern_or_Best_Practice.md) |
 
 ---
 
