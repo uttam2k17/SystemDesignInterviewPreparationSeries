@@ -7,6 +7,40 @@
 
 ---
 
+## 📑 Table of Contents
+
+1. [Introduction: The Relational Hangover](#-introduction-the-relational-hangover)
+2. [The Problem Statement](#the-problem-statement)
+3. [High-Level Architecture: The Two Approaches](#high-level-architecture-the-two-approaches)
+   - [Approach 1: Multiple Tables (The RDBMS Hangover)](#approach-1-multiple-tables-the-rdbms-hangover)
+   - [Approach 2: Single-Table Design (The DynamoDB Way)](#approach-2-single-table-design-the-dynamodb-way)
+4. [The Core Question: Is Single-Table Design an Anti‑Pattern?](#the-core-question-is-single-table-design-an-antipattern)
+5. [Part 1: Why Single-Table Design is a Best Practice](#part-1-why-single-table-design-is-a-best-practice)
+   - [Operational Simplicity](#1-operational-simplicity)
+   - [Flexibility & Evolution](#2-flexibility--evolution)
+   - [Powerful Queries in One Round-Trip](#3-powerful-queries-in-one-round-trip)
+   - [The Power of Composite Keys](#4-the-power-of-composite-keys)
+6. [Part 2: When Should You Use Multiple Tables?](#part-2-when-should-you-use-multiple-tables)
+   - [Different Access Patterns](#1-different-access-patterns-have-fundamentally-different-query-structures)
+   - [Different Capacity Settings](#2-you-need-different-capacity-settings)
+   - [Security & Isolation Requirements](#3-security--isolation-requirements)
+   - [Global Tables & Multi‑Region Replication](#4-global-tables--multiregion-replication)
+   - [Different Backup/Retention Policies](#5-different-backupretention-policies)
+   - [Table‑Level Workload Isolation](#6-tablelevel-workload-isolation)
+7. [Part 3: The Decision Matrix](#part-3-the-decision-matrix)
+8. [Part 4: Implementation Example](#part-4-implementation-example)
+   - [Single-Table Design: E‑Commerce Platform](#single-table-design-ecommerce-platform)
+   - [Query: User Profile + Orders](#query-get-user-profile-and-all-orders-one-round-trip)
+   - [GSI for Category Browsing](#supporting-get-all-products-in-a-category-with-a-gsi)
+9. [Part 5: What Junior Developers Get Wrong](#part-5-what-junior-developers-get-wrong-and-architects-get-right)
+10. [Summary: The Architect's Decision Framework](#summary-the-architects-decision-framework)
+11. [Visual Summary: The Decision Flow](#visual-summary-the-decision-flow)
+12. [How to Talk About It in an Interview](#-how-to-talk-about-it-in-an-interview)
+13. [Quick Recap](#-quick-recap)
+14. [Final Words](#-final-words)
+
+---
+
 ## 🎯 Introduction: The Relational Hangover
 
 You've just moved from the world of SQL to DynamoDB. You have users, orders, products, and reviews. In a relational database, you'd create four tables with foreign keys and `JOIN` them together.
